@@ -1,5 +1,6 @@
 :root {
-  --branding-color: ;
+  --branding-color: #e22a87;
+  --secondary-color: #72bf44;
   --heading-font-family: "Poppins", sans-serif;
 }
 
@@ -16,16 +17,21 @@ h4 {
   font-style: normal;
 }
 
+h2 {
+  font-size: 24px;
+}
+
 p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 16px;
 }
 
 .hero {
   background-color: #f5f5f5;
   text-align: center;
-  padding: 100px 20px;
+  padding: 60px 20px 20px 20px;
   margin: 0;
 }
 
@@ -60,4 +66,42 @@ p {
 .btn-branding:hover {
   background-color: #f4793b;
   color: white;
+}
+
+.homepage-img {
+  margin: 30px auto;
+  width: 350px;
+}
+
+.description {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 5px;
+  color: white;
+  margin: 0 auto;
+}
+.travel-description {
+  padding: 0px 10px 0px 10px;
+}
+
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 8px 20px;
+}
+
+.btn-branding-outline:hover {
+  background-color: var(--branding-color);
+  color: white;
+}
+
+@media (max-width: 900px) {
+  .travel-description {
+    text-align: center;
+  }
+  .hero h2 {
+    font-size: 20px;
+  }
 }
