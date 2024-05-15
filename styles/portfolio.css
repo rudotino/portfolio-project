@@ -104,4 +104,7 @@ p {
   .hero h2 {
     font-size: 20px;
   }
+  .hero p {
+    font-size: 30px;
+  }
 }
