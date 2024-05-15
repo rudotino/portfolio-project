@@ -1,10 +1,17 @@
+:root {
+  --branding-color: ;
+  --heading-font-family: "Poppins", sans-serif;
+}
+
 body {
   background: #f8f8f8;
 }
 
-h1 {
-  color: blue;
-  font-family: "Poppins", sans-serif;
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--heading-font-family);
   font-weight: 700;
   font-style: normal;
 }
@@ -13,4 +20,44 @@ p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.hero {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 100px 20px;
+  margin: 0;
+}
+
+.hero p {
+  font-family: "Patrick Hand SC", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+  color: #f4793b;
+}
+
+.hero h2 {
+  color: #808080;
+  font-weight: 400;
+  font-size: 24px;
+}
+.logo-hero {
+  display: block;
+  margin: 30px auto;
+  width: 800px;
+}
+.btn-branding {
+  background: #ffcb05;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 10px 24px;
+  margin: 30px;
+}
+
+.btn-branding:hover {
+  background-color: #f4793b;
+  color: white;
 }
