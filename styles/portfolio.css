@@ -20,6 +20,9 @@ h4 {
 h2 {
   font-size: 24px;
 }
+.travel-description h2 {
+  padding-top: 30px;
+}
 
 p {
   font-family: "Poppins", sans-serif;
@@ -29,7 +32,6 @@ p {
 }
 
 .hero {
-  background-color: #f5f5f5;
   text-align: center;
   padding: 60px 20px 20px 20px;
   margin: 0;
@@ -50,7 +52,7 @@ p {
 }
 .logo-hero {
   display: block;
-  margin: 30px auto;
+  margin: 20px auto;
   width: 800px;
 }
 .btn-branding {
@@ -69,8 +71,14 @@ p {
 }
 
 .homepage-img {
-  margin: 30px auto;
-  width: 350px;
+  margin: 10px auto;
+  width: 320px;
+}
+
+.bottom-section {
+  background-color: #f3fef6;
+  padding: 20px;
+  margin: 0;
 }
 
 .description {
