@@ -18,7 +18,7 @@ h4 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 18px;
 }
 .travel-description h2 {
   padding-top: 30px;
@@ -28,7 +28,7 @@ p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .hero {
@@ -76,7 +76,7 @@ p {
 }
 
 .bottom-section {
-  background-color: #f3fef6;
+  background-color: #e9ffde;
   padding: 20px;
   margin: 0;
 }
@@ -103,6 +103,10 @@ p {
 .btn-branding-outline:hover {
   background-color: var(--branding-color);
   color: white;
+}
+
+.card {
+  border: none !important;
 }
 
 @media (max-width: 900px) {
