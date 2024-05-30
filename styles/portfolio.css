@@ -17,6 +17,11 @@ h4 {
   font-style: normal;
 }
 
+h1 {
+  font-size: 100px;
+  text-align: center;
+}
+
 h2 {
   font-size: 18px;
 }
@@ -33,11 +38,25 @@ p {
 
 .hero {
   text-align: center;
-  padding: 60px 20px 20px 20px;
-  margin: 0;
+  padding: 80px 30px 30px 30px;
+  margin: 0 auto;
 }
 
-.hero p {
+.abouthero {
+  padding: 80px 20px 20px 20px;
+  margin: auto;
+  display: block;
+}
+
+.abouthero p {
+  line-height: 30px;
+}
+
+.aboutparagraph {
+  padding: 20px 80px 40px 40px;
+}
+
+h3 {
   font-family: "Patrick Hand SC", cursive;
   font-weight: 400;
   font-style: normal;
@@ -62,7 +81,7 @@ p {
   font-size: 18px;
   line-height: 30px;
   padding: 10px 24px;
-  margin: 30px;
+  margin: 0;
 }
 
 .btn-branding:hover {
@@ -109,6 +128,15 @@ p {
   border: none !important;
 }
 
+.about-img {
+  margin: 10px auto;
+  width: 600px;
+}
+
+.about-section-content {
+  padding: 20px;
+}
+
 @media (max-width: 900px) {
   .travel-description {
     text-align: center;
@@ -122,5 +150,15 @@ p {
   .bottom-section {
     background-color: white;
     padding: 0;
+  }
+  h1 {
+    font-size: 62px;
+  }
+
+  .abouthero h1 {
+    font-size: 60px;
+  }
+  .aboutparagraph {
+    padding: 10px 20px 20px 20px;
   }
 }
