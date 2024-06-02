@@ -18,7 +18,7 @@ h4 {
 }
 
 h1 {
-  font-size: 100px;
+  font-size: 90px;
   text-align: center;
 }
 
@@ -60,7 +60,7 @@ h3 {
   font-family: "Patrick Hand SC", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: 48px;
+  font-size: 42px;
   color: #f4793b;
 }
 
@@ -156,7 +156,7 @@ h3 {
   }
 
   .abouthero h1 {
-    font-size: 60px;
+    font-size: 50px;
   }
   .aboutparagraph {
     padding: 10px 20px 20px 20px;
