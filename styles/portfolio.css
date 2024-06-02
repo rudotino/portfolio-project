@@ -28,7 +28,11 @@ h2 {
 .travel-description h2 {
   padding-top: 30px;
 }
-
+h4 {
+  font-size: 18px;
+  color: #f4793b;
+  font-weight: 500;
+}
 p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -135,6 +139,23 @@ h3 {
 
 .about-section-content {
   padding: 20px;
+}
+
+footer {
+  background-color: #f1f1f1;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+footer .social-links a {
+  margin: 10px 20px;
+  background-color: #f1f1f1;
+  padding: 10px 11px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+footer .social-links a:hover {
+  background-color: #f9f9f9;
 }
 
 @media (max-width: 900px) {
